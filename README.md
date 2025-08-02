@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 This script uses Jinja2 templates. The documentation for them can be found here: https://jinja.palletsprojects.com/en/stable/templates/, but you can get by without knowing much Jinja2 syntax and just following the example as this doesn't use many of its features.
 
-It exposes two variables to the template: 'mostposts' (a list containing all the nations that posted in that period in descending order of posts, with a 'name' field for the nation and a 'posts' field for the number of posts) and 'mostposts' (a list containing all the nations that posted in that period in descending order of posts, with a 'name' field for the nation and a 'posts' field for the number of posts).
+It exposes two variables to the template: 'mostposts' (a list containing all the nations that posted in that period in descending order of posts, with a 'name' field for the nation and a 'posts' field for the number of posts) and 'mostliked' (a list containing all the nations that have received likes in that period in descending order of likes received, with a 'name' field for the nation and a 'likes' field for the number of likes received).
 
 An example template looks like this (can be found in templates/example.jinja2):
 ```
