@@ -1,0 +1,13 @@
+[b]Most RMB Posts[/b]
+
+[table]
+[tr][th]Nation[/th][th]Posts[/th][/tr]
+{% for nation in mostposts %}[tr][td][nation]{{ nation.name }}[/nation][/td][td]{{ nation.posts }}[/td][/tr]{% endfor %}
+[/table]
+
+[b]Most RMB Likes Received[/b]
+
+[table]
+[tr][th]Nation[/th][th]Likes[/th][/tr]
+{% for nation in mostliked %}[tr][td][nation]{{ nation.name }}[/nation][/td][td]{{ nation.likes }}[/td][/tr]{% endfor %}
+[/table]
